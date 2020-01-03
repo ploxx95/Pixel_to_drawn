@@ -1,4 +1,18 @@
-.container{
-    background: slateblue;
+.containerfin{
+  
     display: grid;
+    grid-template-columns: repeat(16,30px) ;
+}
+.container{
+  
+    display: grid;
+}
+.divhijo{
+    background: slateblue;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+.divhijo:hover{
+    background: black;
 }
